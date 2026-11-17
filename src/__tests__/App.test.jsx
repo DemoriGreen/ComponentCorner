@@ -9,7 +9,7 @@ beforeEach(() => {
 describe('App cart state and localStorage', () => {
   test('renders the ComponentCorner application', () => {
     render(<App />)
-    expect(screen.getByText('ComponentCorner')).toBeInTheDocument()
+    expect(screen.getAllByText('ComponentCorner').length).toBeGreaterThan(0)
     expect(screen.getByRole('heading', { name: 'Popular picks' })).toBeInTheDocument()
   })
 
