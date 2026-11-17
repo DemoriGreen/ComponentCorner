@@ -8,3 +8,7 @@ A React storefront built with Vite. The homepage uses reusable Header, Hero, Pro
 npm install
 npm run dev
 ```
+
+## Styling note
+
+The component CSS files were created with assistance from ChatGPT (OpenAI) and customized for this project.
