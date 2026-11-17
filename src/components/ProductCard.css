@@ -77,6 +77,12 @@
 }
 
 .product-button {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,4 +96,32 @@
 .product-button span {
   color: #5865e8;
   font-size: 1.1rem;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 700px;
+  margin: 12px auto;
+  padding: 18px 20px;
+  border: 1px solid #e9edf4;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.cart-item h3,
+.cart-item p {
+  margin: 4px 0;
+}
+
+.cart-item button {
+  padding: 9px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: #eef1ff;
+  color: #3443b8;
+  font-weight: 700;
+  cursor: pointer;
 }
