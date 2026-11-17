@@ -34,3 +34,6 @@ Vercel build settings: Framework Preset **Vite**, Build Command **npm run build*
 ## Deployment
 
 Import this GitHub repository in Vercel and deploy. Vercel will build the production app from the `main` branch.
+
+
+The component styling was created with assistance from ChatGPT (OpenAI) and customized for this project.
